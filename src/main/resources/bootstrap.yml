@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: PSpringAPI
+
+
+server:
+  port: ${PORT:8090}
