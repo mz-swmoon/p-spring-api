@@ -16,9 +16,9 @@ public class ApiService {
         List<EduEntity> eduEntities = new ArrayList<>();
         for (int i = 0; i < 10; i++) {
             EduEntity eduEntity = new EduEntity();
-            eduEntity.setAge(10 + i);
-            eduEntity.setGuid("abcde-dasd-asd" + i);
-            eduEntity.setPhone("010000000" + i);
+            eduEntity.setAge(i);
+            eduEntity.setGuid("P_SPRING_API  : " + i);
+            eduEntity.setPhone("P_SPRING_API : " + i);
             eduEntity.setId(i);
             eduEntities.add(eduEntity);
         }
